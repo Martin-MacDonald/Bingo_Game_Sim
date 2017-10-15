@@ -35,7 +35,7 @@ public class BingoBalls{
 		
 	}
 	
-	public void setCalledBall(int i){
+	private void setCalledBall(int i){
 		
 		remainingBallList.remove(new Integer(i));
 		calledBallsList.add(i);
